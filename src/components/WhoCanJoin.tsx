@@ -1,5 +1,9 @@
 import employees from "../assets/employees.png";
 import traders from "../assets/traders.png";
+import entrepreneurs from "../assets/entrepreneur.png";
+import worship from "../assets/worship.png";
+import unions from "../assets/union.png";
+import affinity from "../assets/groups.png";
 
 const WhoCanJoin = () => {
   const cards = [
@@ -19,25 +23,25 @@ const WhoCanJoin = () => {
       title: "Entrepreneurs and SMEs",
       description:
         "Small business owners who need working capital backed by cooperative trust.",
-      image: "",
+      image: entrepreneurs,
     },
     {
       title: "Churches and Mosques",
       description:
         "Religious organizations providing financial empowerment for their members.",
-      image: "",
+      image: worship,
     },
     {
       title: "Association and Unions",
       description:
         "Trade unions, professional groups, and communities supporting their members.",
-      image: "",
+      image: unions,
     },
     {
       title: "Affinity Groups",
       description:
         "Alumni groups, clubs, and trusted circles of 10+ people who guarantee each other.",
-      image: "",
+      image: affinity,
     },
   ];
 

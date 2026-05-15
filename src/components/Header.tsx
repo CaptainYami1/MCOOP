@@ -1,6 +1,7 @@
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Search } from 'lucide-react';
 import { useState } from 'react';
 import logo from "../assets/Mcoop 6 2.png"
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,23 +14,23 @@ const Header = () => {
   ];
 
   return (
-    <header className="absolute top-0 w-full z-50">
+    <header className="fixed top-0 w-full z-50 bg-white shadow-[1px_2px_25px_10px_#00000012]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="flex items-center gap-2">
-              <img src={logo} alt="MCOOP Logo" />
+              <img src={logo} alt="MCOOP Logo" className="h-8" />
             </a>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8 bg-white/50 backdrop-blur-md px-6 py-2 rounded-full shadow-sm border border-gray-100">
+          <nav className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-gray-700 hover:text-emerald-800 transition-colors"
+                className="text-base font-medium text-gray-800 hover:text-[#114C3B] transition-colors"
               >
                 {link.name}
               </a>
@@ -38,15 +39,14 @@ const Header = () => {
 
           {/* Action Buttons */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#" className="text-sm font-medium text-gray-700 hover:text-emerald-800">
+            <button className="text-[#0B3B2E] py-2.5 px-5 rounded-lg hover:text-[#114C3B] transition-colors border border-[#0B3B2E]">
               Login
-            </a>
-            <div className="w-px h-6 bg-gray-300"></div>
+            </button>
             <a
               href="#"
-              className="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-medium rounded-full text-white bg-[#114C3B] hover:bg-[#0a3327] transition-colors"
+              className="inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-medium rounded-lg text-white bg-[#114C3B] hover:bg-[#0a3327] transition-colors shadow-sm"
             >
-              Join MCOOP
+             Join MCOOP
             </a>
           </div>
 
@@ -54,7 +54,7 @@ const Header = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-emerald-800 focus:outline-none p-2"
+              className="text-gray-700 hover:text-[#114C3B] focus:outline-none p-2"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -70,20 +70,20 @@ const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="block px-3 py-3 text-base font-medium text-gray-800 hover:text-emerald-800 hover:bg-emerald-50 rounded-md"
+                className="block px-3 py-3 text-base font-medium text-gray-800 hover:text-[#114C3B] hover:bg-emerald-50 rounded-md"
               >
                 {link.name}
               </a>
             ))}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col space-y-4 px-3">
-              <a href="#" className="text-base font-medium text-gray-800 hover:text-emerald-800">
-                Login
-              </a>
+              <button className="flex items-center justify-center gap-2 text-base font-medium text-gray-800 hover:text-[#114C3B] py-2 border border-gray-200 rounded-lg">
+                <Search className="w-5 h-5" /> Search
+              </button>
               <a
                 href="#"
-                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-[#114C3B] hover:bg-[#0a3327]"
+                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-[#114C3B] hover:bg-[#0a3327]"
               >
-                Join MCOOP
+                Sign In
               </a>
             </div>
           </div>
