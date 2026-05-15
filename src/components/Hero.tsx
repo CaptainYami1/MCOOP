@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+
 import leftdesign from "../assets/Line 1.png";
 import rightdesign from "../assets/Line 2.png";
 import leftPhone from "../assets/Color6.png";
