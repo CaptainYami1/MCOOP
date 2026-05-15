@@ -1,4 +1,3 @@
-import React from 'react'
 import plan1 from "../assets/shopsmart1.png";
 import plan2 from "../assets/shopsmart2.png";
 export const Whatwedo = () => {

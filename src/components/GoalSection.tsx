@@ -1,5 +1,5 @@
 import problem from "../assets/problem.png";
-import { MapPin, ChevronRight, CircleX } from 'lucide-react';
+import {  CircleX } from 'lucide-react';
 
 const GoalSection = () => {
   return (
