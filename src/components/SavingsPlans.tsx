@@ -35,17 +35,7 @@ const SavingsPlans = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center mb-16">
-          <div className="flex items-center mx-auto justify-center mb-4">
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="inline-flex items-center px-4 py-1.5 rounded-full border border-[#EAEAEA]/30 bg-[#EAEAEA]/30">
-              <span className="text-xs handlee-regular font-semibold text-[#1E1E1E] uppercase tracking-wider">
-                MCOOP PLANS
-              </span>
-            </div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-          </div>
+          
           <h2 className="font-semibold text-[30px] leading-[100%] tracking-normal text-center text-gray-900 mb-4 mt-2">
             Co-operative Savings Plans
           </h2>

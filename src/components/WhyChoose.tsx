@@ -55,17 +55,7 @@ const WhyChoose = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="flex items-center justify-center mb-4">
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-[#EAEAEA]/20 bg-[#EAEAEA]/10">
-              <span className="text-xs handlee-regular font-semibold text-white uppercase tracking-wider">
-                PRODUCT FEATURES
-              </span>
-            </div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-          </div>
+         
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Why Choose MCOOP
           </h2>

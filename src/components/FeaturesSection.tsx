@@ -53,17 +53,7 @@ const FeaturesSection = () => {
     <section className="py-24 bg-[#114C3B] relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <div className="flex items-center justify-center mb-4">
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-[#EAEAEA]/20 bg-[#EAEAEA]/10">
-              <span className="text-xs handlee-regular font-semibold text-white uppercase tracking-wider">
-                HOW TO USE THE MCOOP APP
-              </span>
-            </div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-          </div>
+         
           <h2 className="font-semibold text-[30px] leading-none tracking-normal text-center text-white mt-4 mb-4">
             Get Started in Minutes
           </h2>

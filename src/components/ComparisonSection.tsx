@@ -8,17 +8,7 @@ const ComparisonSection = () => {
 
         {/* Header */}
         <div className="text-center mb-12">
-          {/* <div className="flex items-center mx-auto justify-center  mb-4">
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="inline-flex items-center  px-4 py-1.5 rounded-full border border-[#EAEAEA]/30 bg-[#EAEAEA]/30">
-              <span className="text-xs handlee-regular font-semibold text-[#1E1E1E] uppercase tracking-wider">
-                why MCOOP
-              </span>
-            </div>
-            <div className="w-5 border border-[#CECECE]/50 h-0"></div>
-            <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
-          </div> */}
+          
           <h2 className="text-3xl font-bold text-[#1E1E1E] mb-4">How MCOOP is Different</h2>
           <p className="text-gray-600 ">Not a bank. Not a loan shark. A true cooperative</p>
         </div>

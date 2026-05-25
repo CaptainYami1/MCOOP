@@ -50,7 +50,7 @@ const WhoCanJoin = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="flex items-center justify-center mb-4">
+          {/* <div className="flex items-center justify-center mb-4">
             <div className="w-2.5 h-2.5 border border-[#CECECE] rounded-full"></div>
             <div className="w-5 border border-[#CECECE] h-0"></div>
             <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-gray-200 bg-gray-50">
@@ -60,7 +60,7 @@ const WhoCanJoin = () => {
             </div>
             <div className="w-5 border border-[#CECECE] h-0"></div>
             <div className="w-2.5 h-2.5 border border-[#CECECE] rounded-full"></div>
-          </div>
+          </div> */}
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Who Can Join MCOOP?
           </h2>
