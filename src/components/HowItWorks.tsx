@@ -6,7 +6,7 @@ const HowItWorks = () => {
     {
       title: "Join a Circle",
       description:
-        "Register through your employer, church, mosque, trade union, or trusted community group.",
+        "Register and join an existing circle through your employer, church, mosque, trade association, club, or trusted community - or create your own trusted circle.",
       icon: <UsersRound className="w-6 h-6 text-[#114C3B]" />,
       stepNum: "1",
     },

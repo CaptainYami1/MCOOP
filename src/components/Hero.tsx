@@ -6,7 +6,6 @@ import rightPhone from "../assets/Color7.png";
 const Hero = () => {
   return (
     <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden flex flex-col items-center justify-center bg-[#fdfdfc]">
-
       {/* SVG Wavy Line (left) */}
       <img
         src={leftdesign}
@@ -24,14 +23,15 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full text-center flex flex-col items-center">
         {/* Text Content */}
         <h1 className="font-semibold text-[40px] leading-16 tracking-normal text-[#1E1E1E] text-center mb-6">
-          Save Together.<br />
+          Save Together.
+          <br />
           Grow stronger. Powered by trust.
         </h1>
         <p className="font-normal text-[16px] leading-6 tracking-normal text-center text-[#1E1E1E] mb-10  max-w-2xl mx-auto">
-          Nigeria’s trusted digital cooperative platform that empowers
-          everyday Nigerians to save consistently, access affordable loans
-          backed by community trust and shop smart - all without traditional
-          collateral.
+          Nigeria’s trusted digital cooperative platform helping individuals,
+          professionals, and communities save consistently, access affordable
+          loans through collective trust, and build shared prosperity - without
+          traditional collateral barriers.
           <br />
           <br />
           MCOOP is the digital platform of More Prosperity Cooperative

@@ -7,9 +7,9 @@ import img6 from "../assets/morethanloan.jpg";
 const WhyChoose = () => {
   const benefits = [
     {
-      title: "No Collateral, Fast Loan",
+      title: "No Traditional Collateral Required",
       description:
-        "Your saving history and guarantees are your security. No property, no land, no stress.",
+        "Your savings consistency and community guarantees support your eligibility.",
       image: img1,
     },
     {
@@ -33,7 +33,7 @@ const WhyChoose = () => {
     {
       title: "Fast Approval Process",
       description:
-        "Qualify for loans in as little as 30 days of consistent saving. Quick application & decision.",
+        "Your cooperative loan applications are processed quickly with 24/7 supports.",
       image: img5,
     },
     {

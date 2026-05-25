@@ -33,7 +33,7 @@ const GoalSection = () => {
                 <div className="flex-shrink-0 mt-0.5">
                   <CircleX className="w-5 h-5 text-[#141B34]" />
                 </div>
-                <p className="ml-3 text-[#1E1E1E]  font-normal text-sm leading-[23px] tracking-normal">Your employer does not have the capital reserve to offer substantial loan.</p>
+                <p className="ml-3 text-[#1E1E1E]  font-normal text-sm leading-[23px] tracking-normal">Your employer may not be able to provide quick financial support when emergencies arise.</p>
               </li>
             </ul>
 
@@ -41,7 +41,7 @@ const GoalSection = () => {
               href="#"
               className="font-semibold text-base leading-[150%] tracking-normal text-[#0B3B2E]  hover:text-[#0a3327] transition-colors"
             >
-              YOU ARE STUCK - UNTIL NOW
+              Until now, easy and affordable community-backed finance has been difficult to access.
             </a>
           </div>
 
@@ -64,7 +64,7 @@ const GoalSection = () => {
             MCOOP : Your Financial Community
           </h2>
           <p className="font-normal text-sm leading-[23px] tracking-normal text-center text-[#1E1E1E] ">
-            We’ve reimagined cooperative finance for digital age. Save with your trusted circle, build your credit history and access loans backed by community trust - Not collateral.
+            We’ve reimagined cooperative finance for the digital age. Save with your trusted circle, build your credit history and access loans backed by community trust - Not collateral.
           </p>
         </div>
       </div>

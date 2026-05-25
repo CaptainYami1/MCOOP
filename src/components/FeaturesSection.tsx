@@ -34,7 +34,7 @@ const FeaturesSection = () => {
     {
       title: "Create your account",
       description:
-        "Create your account by filling your full name, phone number, email and residential  address",
+        "Create your secure member account. Your personal information and transactions are protected with advanced security and encryption protocols.",
       icon: <ScanText className="w-6 h-6 text-emerald-100" />,
     },
     {
@@ -65,7 +65,7 @@ const FeaturesSection = () => {
             <div className="w-2.5 h-2.5 border border-[#CECECE]/50 rounded-full"></div>
           </div>
           <h2 className="font-semibold text-[30px] leading-none tracking-normal text-center text-white mt-4 mb-4">
-            Get Started in 3 MINUTES
+            Get Started in Minutes
           </h2>
         </div>
 

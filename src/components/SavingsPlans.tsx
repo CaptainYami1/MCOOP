@@ -7,7 +7,7 @@ const SavingsPlans = () => {
     {
       title: "PaySave (For salary earners)",
       features: [
-        "Monthly savings from ₦5,000 to ₦20,000+",
+        "Monthly savings from ₦5,000.",
         "Perfect for employees and professionals building long term financial security."
       ],
       image: plan1
@@ -15,7 +15,7 @@ const SavingsPlans = () => {
     {
       title: "Ajoflex (For daily earners)",
       features: [
-        "Daily or weekly contributions from ₦5,000.",
+        "Daily or weekly contributions from ₦1,000.",
         "Ideal for traders, artisans, and informal workers with daily cash flow."
       ],
       image: plan2

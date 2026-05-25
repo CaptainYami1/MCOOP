@@ -14,10 +14,9 @@ export const Whatwedo = () => {
     },
     {
       title: "MCOOP Care & Life",
-        description: "Protect what matters",
+        description: "Premium Protection, Tailored for You.",
       features: [
-        "Daily or weekly contributions from ₦5,000.",
-        "Ideal for traders, artisans, and informal workers with daily cash flow."
+        "Take control of tomorrow. MCOOP connects members to verified, licensed HMO and Life Insurance partners through flexible contribution plans built around your income cycle. Choose your plan, protect what matters, and let our licensed partners handle the rest."
       ],
       image: plan2
     },
