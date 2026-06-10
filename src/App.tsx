@@ -12,6 +12,9 @@ import Footer from './components/Footer';
 import './App.css';
 import FlexibleRepayment from './components/FlexibleRepayment';
 import { Whatwedo } from './components/Whatwedo';
+import { Testimonials } from './components/Testimonials';
+import { Partners } from './components/Partners';
+import { Faqs } from './components/Faqs';
 
 function App() {
   return (
@@ -27,7 +30,11 @@ function App() {
         <FlexibleRepayment />
         <Whatwedo />
         <WhoCanJoin />
+        
         <WhyChoose />
+        <Testimonials />
+        <Partners/>
+        <Faqs/>
       </main>
       <FooterCTA />
       <Footer />

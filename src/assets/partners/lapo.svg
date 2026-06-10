@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" fill="none">
+  <circle cx="48" cy="36" r="22" fill="#F58220"/>
+  <circle cx="48" cy="36" r="14" fill="#fff"/>
+  <circle cx="48" cy="36" r="8" fill="#00843D"/>
+  <text x="48" y="40" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="7" font-weight="700">LAPO</text>
+  <text x="80" y="32" fill="#00843D" font-family="Arial, sans-serif" font-size="14" font-weight="700">LAPO</text>
+  <text x="80" y="46" fill="#666" font-family="Arial, sans-serif" font-size="9">Microfinance Bank</text>
+</svg>
