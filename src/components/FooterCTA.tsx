@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import phone1 from "../assets/footerphone1.png"
 import phone2 from "../assets/footerphone2.png"
+import { ROUTES } from "../routes/paths";
 const FooterCTA = () => {
   return (
     <footer className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
@@ -19,20 +21,20 @@ const FooterCTA = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start  items-center md:items-start">
-              <a href="#" className=" transition-transform hover:scale-105">
+              <Link to={ROUTES.appStore} className=" transition-transform hover:scale-105">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
                   alt="Download on the App Store"
                   className="h-12"
                 />
-              </a>
-              <a href="#" className="inline-block transition-transform hover:scale-105">
+              </Link>
+              <Link to={ROUTES.googlePlay} className="inline-block transition-transform hover:scale-105">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                   alt="Get it on Google Play"
                   className="h-12"
                 />
-              </a>
+              </Link>
             </div>
           </div>
 

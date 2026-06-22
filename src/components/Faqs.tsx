@@ -32,7 +32,7 @@ export const Faqs = () => {
   };
 
   return (
-    <section className="py-24 bg-[#fdfdfc] relative overflow-hidden">
+    <section id="faqs" className="py-24 bg-[#fdfdfc] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 justify-center items-center">
           <div className="lg:w-2/5 shrink-0">

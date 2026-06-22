@@ -1,0 +1,16 @@
+export const ROUTES = {
+  home: "/",
+  about: "/about",
+  contact: "/contact",
+  products: "/products",
+  support: "/support",
+  legal: "/legal",
+  terms: "/legal/terms",
+  privacy: "/legal/privacy",
+  login: "/login",
+  join: "/join",
+  search: "/search",
+  download: "/download",
+  appStore: "/download/app-store",
+  googlePlay: "/download/google-play",
+} as const;

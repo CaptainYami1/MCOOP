@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import leftdesign from "../assets/Line 1.png";
 import rightdesign from "../assets/Line 2.png";
 import leftPhone from "../assets/Color6.png";
 import rightPhone from "../assets/Color7.png";
+import { ROUTES } from "../routes/paths";
 
 const Hero = () => {
   return (
@@ -39,12 +41,12 @@ const Hero = () => {
           Ministry of Commerce, Cooperatives, Trade & Investment.
         </p>
         <div className="flex justify-center mb-16">
-          <a
-            href="#"
+          <Link
+            to={ROUTES.join}
             className="inline-flex items-center justify-center px-10 py-4 text-base font-medium rounded-full text-white bg-[#114C3B] hover:bg-[#0a3327] transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Join MCOOP
-          </a>
+          </Link>
         </div>
 
         {/* Image Content (Phones) */}

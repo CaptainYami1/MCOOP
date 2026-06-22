@@ -1,60 +1,69 @@
-import { Menu, X, Search } from 'lucide-react';
-import { useState } from 'react';
-import logo from "../assets/Mcoop 6 2.png"
+import { Link, useLocation } from "react-router-dom";
+import { Menu, X, Search } from "lucide-react";
+import { useState } from "react";
+import logo from "../assets/Mcoop 6 2.png";
+import { ROUTES } from "../routes/paths";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const navLinks = [
-    { name: 'About', href: '#' },
-    { name: 'Contact', href: '#' },
-    { name: 'Products', href: '#' },
-    { name: 'Support', href: '#' },
-    { name: 'Legal', href: '#' },
+    { name: "About", href: ROUTES.about },
+    { name: "Contact", href: ROUTES.contact },
+    { name: "Products", href: ROUTES.products },
+    { name: "Support", href: ROUTES.support },
+    { name: "Legal", href: ROUTES.legal },
   ];
+
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <header className="fixed top-0 w-full z-50 bg-white shadow-[1px_2px_25px_10px_#00000012]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center">
         <div className="flex justify-between items-center h-24">
-          {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="flex items-center gap-2">
+            <Link to={ROUTES.home} className="flex items-center gap-2">
               <img src={logo} alt="MCOOP Logo" className="h-8" />
-            </a>
+            </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
-                className="text-base font-medium text-gray-800 hover:text-[#114C3B] transition-colors"
+                to={link.href}
+                className={`text-base font-medium transition-colors ${
+                  location.pathname === link.href
+                    ? "text-[#114C3B]"
+                    : "text-gray-800 hover:text-[#114C3B]"
+                }`}
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </nav>
 
-          {/* Action Buttons */}
           <div className="hidden md:flex items-center space-x-6">
-            <button className="text-[#0B3B2E] py-2.5 px-5 rounded-lg hover:text-[#114C3B] transition-colors border border-[#0B3B2E]">
+            <Link
+              to={ROUTES.login}
+              className="text-[#0B3B2E] py-2.5 px-5 rounded-lg hover:text-[#114C3B] transition-colors border border-[#0B3B2E]"
+            >
               Login
-            </button>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to={ROUTES.join}
               className="inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-medium rounded-lg text-white bg-[#114C3B] hover:bg-[#0a3327] transition-colors shadow-sm"
             >
-             Join MCOOP
-            </a>
+              Join MCOOP
+            </Link>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 hover:text-[#114C3B] focus:outline-none p-2"
+              aria-label={isOpen ? "Close menu" : "Open menu"}
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -62,29 +71,34 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu */}
       {isOpen && (
         <div className="md:hidden bg-white/95 backdrop-blur-lg absolute top-24 left-0 w-full shadow-lg border-t border-gray-100">
           <div className="px-4 pt-2 pb-6 space-y-1">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
+                onClick={closeMenu}
                 className="block px-3 py-3 text-base font-medium text-gray-800 hover:text-[#114C3B] hover:bg-emerald-50 rounded-md"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col space-y-4 px-3">
-              <button className="flex items-center justify-center gap-2 text-base font-medium text-gray-800 hover:text-[#114C3B] py-2 border border-gray-200 rounded-lg">
+              <Link
+                to={ROUTES.search}
+                onClick={closeMenu}
+                className="flex items-center justify-center gap-2 text-base font-medium text-gray-800 hover:text-[#114C3B] py-2 border border-gray-200 rounded-lg"
+              >
                 <Search className="w-5 h-5" /> Search
-              </button>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to={ROUTES.login}
+                onClick={closeMenu}
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-[#114C3B] hover:bg-[#0a3327]"
               >
                 Sign In
-              </a>
+              </Link>
             </div>
           </div>
         </div>

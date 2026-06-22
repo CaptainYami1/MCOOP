@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import employees from "../assets/employees.png";
+import { ROUTES } from "../routes/paths";
 import traders from "../assets/traders.png";
 import entrepreneurs from "../assets/entrepreneur.png";
 import worship from "../assets/worship.png";
@@ -100,12 +102,12 @@ const WhoCanJoin = () => {
 
         {/* Action Button */}
         <div className="mt-16 text-center relative z-10">
-          <a
-            href="#"
+          <Link
+            to={ROUTES.join}
             className="inline-flex items-center justify-center px-8 py-3 text-sm font-medium rounded-full text-white bg-[#114C3B] hover:bg-[#0a3327] transition-colors shadow-md hover:shadow-lg"
           >
             Get Started
-          </a>
+          </Link>
         </div>
 
         {/* Decorative elements */}

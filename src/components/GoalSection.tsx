@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import problem from "../assets/problem.png";
-import {  CircleX } from 'lucide-react';
+import { CircleX } from "lucide-react";
+import { ROUTES } from "../routes/paths";
 
 const GoalSection = () => {
   return (
@@ -37,12 +39,12 @@ const GoalSection = () => {
               </li>
             </ul>
 
-            <a
-              href="#"
+            <Link
+              to={ROUTES.about}
               className="font-semibold text-base leading-[150%] tracking-normal text-[#0B3B2E]  hover:text-[#0a3327] transition-colors"
             >
               Until now, easy and affordable community-backed finance has been difficult to access.
-            </a>
+            </Link>
           </div>
 
           {/* Image */}
