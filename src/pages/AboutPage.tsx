@@ -32,7 +32,7 @@ const AboutPage = () => {
       <h2 className="font-semibold text-lg text-[#1E1E1E] pt-4">Who we serve</h2>
       <p>
         From employees and traders to entrepreneurs, churches, mosques, unions,
-        and affinity groups MCOOP is built for every Nigerian who wants to
+        and affinity groups. MCOOP is built for every Nigerian who wants to
         save smarter and grow together with people they trust.
       </p>
 
