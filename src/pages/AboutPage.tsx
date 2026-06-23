@@ -6,14 +6,14 @@ const AboutPage = () => {
   return (
     <PageLayout
       title="About MCOOP"
-      subtitle="Nigeria's trusted digital cooperative platform — built on community trust, not collateral."
+      subtitle="Nigeria's trusted digital cooperative platform built on community trust, not collateral."
     className="max-w-2xl"
     >
       <p>
         MCOOP is the proprietary digital platform of More Prosperity Cooperative
         Multipurpose Society, fully registered and regulated by the Lagos State
         Ministry of Commerce, Cooperatives, Trade & Investment. We are not a
-        bank — we are a cooperative reimagined for the digital age.
+        bank we are a cooperative reimagined for the digital age.
       </p>
       <p>
         Our mission is to help individuals, professionals, and communities save
@@ -32,7 +32,7 @@ const AboutPage = () => {
       <h2 className="font-semibold text-lg text-[#1E1E1E] pt-4">Who we serve</h2>
       <p>
         From employees and traders to entrepreneurs, churches, mosques, unions,
-        and affinity groups — MCOOP is built for every Nigerian who wants to
+        and affinity groups MCOOP is built for every Nigerian who wants to
         save smarter and grow together with people they trust.
       </p>
 

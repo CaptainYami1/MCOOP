@@ -11,7 +11,7 @@ const DownloadPage = () => {
     >
       <p>
         The MCOOP mobile app puts your entire cooperative experience in your
-        pocket — savings, loans, marketplace purchases, airtime, data, and a
+        pocket savings, loans, marketplace purchases, airtime, data, and a
         real-time dashboard that captures everything instantly.
       </p>
 

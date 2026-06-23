@@ -6,14 +6,14 @@ const ProductsPage = () => {
   return (
     <PageLayout
       title="Products & Services"
-      subtitle="Everything you need to save, borrow, and grow — all in one cooperative platform."
+      subtitle="Everything you need to save, borrow, and grow all in one cooperative platform."
     className="max-w-2xl"
     >
       <div className="space-y-6">
         <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
           <h2 className="font-semibold text-[#1E1E1E] mb-2">Cooperative Savings</h2>
           <p>
-            Choose a savings plan that fits your income cycle — daily, weekly, or
+            Choose a savings plan that fits your income cycle daily, weekly, or
             monthly. Build your cooperative credit history and unlock access to
             affordable loans backed by community trust.
           </p>
@@ -24,7 +24,7 @@ const ProductsPage = () => {
           <p>
             Apply for loans without traditional collateral. Approval is based on
             your savings consistency, membership standing, and a guarantor from
-            your trusted circle — with transparent interest and fees discussed
+            your trusted circle with transparent interest and fees discussed
             upfront.
           </p>
         </div>
@@ -33,7 +33,7 @@ const ProductsPage = () => {
           <h2 className="font-semibold text-[#1E1E1E] mb-2">MCOOP Marketplace</h2>
           <p>
             Shop smart and save more. Purchase airtime, data bundles, and
-            essential products at group discounted prices — paid directly from
+            essential products at group discounted prices paid directly from
             your MCOOP wallet.
           </p>
         </div>

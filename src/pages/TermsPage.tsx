@@ -40,7 +40,7 @@ const TermsPage = () => {
         <h2 className="font-semibold text-lg text-[#1E1E1E] mb-2">4. Loans</h2>
         <p>
           Loan eligibility is based on savings consistency, membership standing,
-          and guarantor support — not traditional collateral. Interest rates,
+          and guarantor support not traditional collateral. Interest rates,
           fees, and repayment terms are disclosed before approval. Default may
           affect your standing and that of your guarantor and circle.
         </p>

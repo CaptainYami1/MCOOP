@@ -11,7 +11,7 @@ const AppStorePage = () => {
     >
       <p>
         Download MCOOP from the Apple App Store to manage your cooperative
-        savings, apply for community-backed loans, and shop the marketplace —
+        savings, apply for community-backed loans, and shop the marketplace
         all from your iOS device.
       </p>
 
